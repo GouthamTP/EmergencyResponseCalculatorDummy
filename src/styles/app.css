@@ -73,6 +73,15 @@ input {
   letter-spacing: 0.01em;
 }
 
+.prototype-label {
+  margin-top: 4px;
+  color: #a8c2d0;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+}
+
 .eyebrow {
   color: #ffaf89;
   font-weight: 800;

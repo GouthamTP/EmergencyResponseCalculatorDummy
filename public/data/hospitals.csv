@@ -1,6 +1,6 @@
 hospital_id,name,latitude,longitude,region,helicopter_accessible
-H01,Stavanger Hospital Demo,58.97,5.73,South,true
-H02,Bergen Hospital Demo,60.37,5.36,West,true
-H03,Trondheim Hospital Demo,63.43,10.4,Mid,true
-H04,Bodo Hospital Demo,67.28,14.4,North,true
-H05,Tromso Hospital Demo,69.68,18.97,North,true
+H01,Stavanger Hospital ,58.97,5.73,South,true
+H02,Bergen Hospital ,60.37,5.36,West,true
+H03,Trondheim Hospital ,63.43,10.4,Mid,true
+H04,Bodo Hospital ,67.28,14.4,North,true
+H05,Tromso Hospital ,69.68,18.97,North,true

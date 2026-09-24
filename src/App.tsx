@@ -143,6 +143,7 @@ export default function App(){
         <div>
           <p className="eyebrow">OFFSHORE PLANNING INDICATOR</p>
           <h1>Emergency Readiness Command Deck</h1>
+          <p className="prototype-label">Prototype with Dummy Data</p>
         </div>
         <div className="mode-toggle" role="group" aria-label="Day and night scenario toggle">
           <button

@@ -1,6 +1,6 @@
 resource_id,name,latitude,longitude,speed_knots,mobilization_min,region,available
-E01,ERRV Sleipner Demo,58.67,1.91,14,15,Sleipner Demo,true
-E02,ERRV Troll Demo,60.82,3.7,14,15,Troll Demo,true
-E03,ERRV Oseberg Demo,60.5,2.82,13,20,Oseberg Demo,true
-E04,ERRV Halten Demo,65.32,7.25,15,15,Halten Demo,true
-E05,ERRV Barents Demo,71.2,22.1,14,20,Barents Demo,true
+E01,ERRV Sleipner ,58.67,1.91,14,15,Sleipner ,true
+E02,ERRV Troll ,60.82,3.7,14,15,Troll ,true
+E03,ERRV Oseberg ,60.5,2.82,13,20,Oseberg ,true
+E04,ERRV Halten ,65.32,7.25,15,15,Halten ,true
+E05,ERRV Barents ,71.2,22.1,14,20,Barents ,true

@@ -1,6 +1,6 @@
 resource_id,name,aircraft_type,latitude,longitude,speed_knots,range_nm,capacity,mobilization_day_min,mobilization_night_min,pickup_min_per_person,installation_time_min
-SAR01,SAR Bergen Demo,S-92,60.29,5.22,140,98,21,15,20,3,20
-SAR02,SAR Oseberg Demo,AW139,60.49,2.82,130,90,12,15,20,3,20
-SAR03,SAR Stavanger Demo,S-92,58.88,5.64,140,98,21,15,20,3,20
-SAR04,SAR Heidrun Demo,S-92,65.33,7.34,140,98,21,15,20,3,20
-SAR05,SAR Hammerfest Demo,S-92,70.68,23.67,140,98,21,18,24,3,20
+SAR01,SAR Bergen ,S-92,60.29,5.22,140,98,21,15,20,3,20
+SAR02,SAR Oseberg ,AW139,60.49,2.82,130,90,12,15,20,3,20
+SAR03,SAR Stavanger ,S-92,58.88,5.64,140,98,21,15,20,3,20
+SAR04,SAR Heidrun ,S-92,65.33,7.34,140,98,21,15,20,3,20
+SAR05,SAR Hammerfest ,S-92,70.68,23.67,140,98,21,18,24,3,20

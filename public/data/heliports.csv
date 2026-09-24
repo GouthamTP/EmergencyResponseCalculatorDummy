@@ -1,5 +1,5 @@
 heliport_id,name,latitude,longitude,region,active
-HP01,Bergen Heliport Demo,60.29,5.22,West,true
-HP02,Stavanger Heliport Demo,58.88,5.64,South,true
-HP03,Bronnoysund Heliport Demo,65.47,12.22,Mid,true
-HP04,Hammerfest Heliport Demo,70.68,23.67,North,true
+HP01,Bergen Heliport ,60.29,5.22,West,true
+HP02,Stavanger Heliport ,58.88,5.64,South,true
+HP03,Bronnoysund Heliport ,65.47,12.22,Mid,true
+HP04,Hammerfest Heliport ,70.68,23.67,North,true

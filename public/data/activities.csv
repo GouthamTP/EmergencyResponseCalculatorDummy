@@ -1,49 +1,49 @@
 activity_id,name,operator,region,latitude,longitude,installation_type,status,people_on_board,planned_start,planned_end,actual_start,actual_end,dfu2,dfu5,dfu7
-A001,Demo Activity 01,Equinor Demo,Troll Demo,60.8813,2.64,Fixed,Active,40,2026-01-01,2026-12-31,,,true,true,false
-A002,Demo Activity 02,NorthSea Energy Demo,Oseberg Demo,60.2075,2.3571,Mobile,Planned,47,2026-01-01,2026-12-31,,,false,false,true
-A003,Demo Activity 03,Nordic Offshore Demo,Sleipner Demo,58.7074,2.1827,Floating,Active,54,2026-01-01,2026-12-31,,,true,false,false
-A004,Demo Activity 04,Coastal Operations Demo,Halten Demo,65.8098,6.5391,Fixed,Completed,61,2026-01-01,2026-12-31,,,false,true,true
-A005,Demo Activity 05,Equinor Demo,Barents Demo,71.0985,21.2477,Mobile,Active,68,2026-01-01,2026-12-31,,,true,false,false
-A006,Demo Activity 06,NorthSea Energy Demo,Troll Demo,60.3342,3.4086,Floating,Planned,75,2026-01-01,2026-12-31,,,false,false,true
-A007,Demo Activity 07,Nordic Offshore Demo,Oseberg Demo,59.8845,2.3181,Fixed,Active,82,2026-01-01,2026-12-31,,,true,true,false
-A008,Demo Activity 08,Coastal Operations Demo,Sleipner Demo,58.5948,1.9719,Mobile,Completed,89,2026-01-01,2026-12-31,,,false,false,true
-A009,Demo Activity 09,Equinor Demo,Halten Demo,64.9366,7.3428,Floating,Active,96,2026-01-01,2026-12-31,,,true,false,false
-A010,Demo Activity 10,NorthSea Energy Demo,Barents Demo,71.6023,21.2104,Fixed,Planned,103,2026-01-01,2026-12-31,,,false,true,true
-A011,Demo Activity 11,Nordic Offshore Demo,Troll Demo,61.0976,3.717,Mobile,Active,110,2026-01-01,2026-12-31,,,true,false,false
-A012,Demo Activity 12,Coastal Operations Demo,Oseberg Demo,60.2923,2.2488,Floating,Completed,117,2026-01-01,2026-12-31,,,false,false,true
-A013,Demo Activity 13,Equinor Demo,Sleipner Demo,58.9944,1.6386,Fixed,Active,124,2026-01-01,2026-12-31,,,true,true,false
-A014,Demo Activity 14,NorthSea Energy Demo,Halten Demo,64.7706,6.5547,Mobile,Planned,131,2026-01-01,2026-12-31,,,false,false,true
-A015,Demo Activity 15,Nordic Offshore Demo,Barents Demo,71.6517,22.166,Floating,Active,138,2026-01-01,2026-12-31,,,true,false,false
-A016,Demo Activity 16,Coastal Operations Demo,Troll Demo,61.0993,3.7676,Fixed,Completed,145,2026-01-01,2026-12-31,,,false,true,true
-A017,Demo Activity 17,Equinor Demo,Oseberg Demo,60.5471,3.557,Mobile,Active,152,2026-01-01,2026-12-31,,,true,false,false
-A018,Demo Activity 18,NorthSea Energy Demo,Sleipner Demo,58.2421,1.9833,Floating,Planned,159,2026-01-01,2026-12-31,,,false,false,true
-A019,Demo Activity 19,Nordic Offshore Demo,Halten Demo,65.7282,7.3896,Fixed,Active,166,2026-01-01,2026-12-31,,,true,true,false
-A020,Demo Activity 20,Coastal Operations Demo,Barents Demo,71.6702,22.1238,Mobile,Completed,43,2026-01-01,2026-12-31,,,false,false,true
-A021,Demo Activity 21,Equinor Demo,Troll Demo,60.9659,2.6733,Floating,Active,50,2026-01-01,2026-12-31,,,true,false,false
-A022,Demo Activity 22,NorthSea Energy Demo,Oseberg Demo,60.1463,2.463,Fixed,Planned,57,2026-01-01,2026-12-31,,,false,true,true
-A023,Demo Activity 23,Nordic Offshore Demo,Sleipner Demo,57.8537,1.4725,Mobile,Active,64,2026-01-01,2026-12-31,,,true,false,false
-A024,Demo Activity 24,Coastal Operations Demo,Halten Demo,64.7813,6.8448,Floating,Completed,71,2026-01-01,2026-12-31,,,false,false,true
-A025,Demo Activity 25,Equinor Demo,Barents Demo,71.3764,21.7837,Fixed,Active,78,2026-01-01,2026-12-31,,,true,true,false
-A026,Demo Activity 26,NorthSea Energy Demo,Troll Demo,60.5312,2.9352,Mobile,Planned,85,2026-01-01,2026-12-31,,,false,false,true
-A027,Demo Activity 27,Nordic Offshore Demo,Oseberg Demo,60.1971,3.4986,Floating,Active,92,2026-01-01,2026-12-31,,,true,false,false
-A028,Demo Activity 28,Coastal Operations Demo,Sleipner Demo,58.5924,2.0746,Fixed,Completed,99,2026-01-01,2026-12-31,,,false,true,true
-A029,Demo Activity 29,Equinor Demo,Halten Demo,64.8725,7.5666,Mobile,Active,106,2026-01-01,2026-12-31,,,true,false,false
-A030,Demo Activity 30,NorthSea Energy Demo,Barents Demo,70.7624,21.8071,Floating,Planned,113,2026-01-01,2026-12-31,,,false,false,true
-A031,Demo Activity 31,Nordic Offshore Demo,Troll Demo,61.3364,3.624,Fixed,Active,120,2026-01-01,2026-12-31,,,true,true,false
-A032,Demo Activity 32,Coastal Operations Demo,Oseberg Demo,60.574,3.0954,Mobile,Completed,127,2026-01-01,2026-12-31,,,false,false,true
-A033,Demo Activity 33,Equinor Demo,Sleipner Demo,58.8457,2.3416,Floating,Active,134,2026-01-01,2026-12-31,,,true,false,false
-A034,Demo Activity 34,NorthSea Energy Demo,Halten Demo,64.9478,6.4514,Fixed,Planned,141,2026-01-01,2026-12-31,,,false,true,true
-A035,Demo Activity 35,Nordic Offshore Demo,Barents Demo,70.9601,21.6284,Mobile,Active,148,2026-01-01,2026-12-31,,,true,false,false
-A036,Demo Activity 36,Coastal Operations Demo,Troll Demo,60.3243,4.1087,Floating,Completed,155,2026-01-01,2026-12-31,,,false,false,true
-A037,Demo Activity 37,Equinor Demo,Oseberg Demo,60.9893,2.5035,Fixed,Active,162,2026-01-01,2026-12-31,,,true,true,false
-A038,Demo Activity 38,NorthSea Energy Demo,Sleipner Demo,58.6021,1.733,Mobile,Planned,169,2026-01-01,2026-12-31,,,false,false,true
-A039,Demo Activity 39,Nordic Offshore Demo,Halten Demo,65.8389,7.1342,Floating,Active,46,2026-01-01,2026-12-31,,,true,false,false
-A040,Demo Activity 40,Coastal Operations Demo,Barents Demo,70.8943,21.5946,Fixed,Completed,53,2026-01-01,2026-12-31,,,false,true,true
-A041,Demo Activity 41,Equinor Demo,Troll Demo,60.7798,3.0204,Mobile,Active,60,2026-01-01,2026-12-31,,,true,false,false
-A042,Demo Activity 42,NorthSea Energy Demo,Oseberg Demo,60.61,3.4365,Floating,Planned,67,2026-01-01,2026-12-31,,,false,false,true
-A043,Demo Activity 43,Nordic Offshore Demo,Sleipner Demo,58.2692,1.4509,Fixed,Active,74,2026-01-01,2026-12-31,,,true,true,false
-A044,Demo Activity 44,Coastal Operations Demo,Halten Demo,65.9468,7.2152,Mobile,Completed,81,2026-01-01,2026-12-31,,,false,false,true
-A045,Demo Activity 45,Equinor Demo,Barents Demo,70.6682,21.2754,Floating,Active,88,2026-01-01,2026-12-31,,,true,false,false
-A046,Demo Activity 46,NorthSea Energy Demo,Troll Demo,60.1925,3.6039,Fixed,Planned,95,2026-01-01,2026-12-31,,,false,true,true
-A047,Demo Activity 47,Nordic Offshore Demo,Oseberg Demo,60.8797,2.6755,Mobile,Active,102,2026-01-01,2026-12-31,,,true,false,false
-A048,Demo Activity 48,Coastal Operations Demo,Sleipner Demo,57.8326,1.7106,Floating,Completed,109,2026-01-01,2026-12-31,,,false,false,true
+A001, Activity 01,Equinor ,Troll ,60.8813,2.64,Fixed,Active,40,2026-01-01,2026-12-31,,,true,true,false
+A002, Activity 02,NorthSea Energy ,Oseberg ,60.2075,2.3571,Mobile,Planned,47,2026-01-01,2026-12-31,,,false,false,true
+A003, Activity 03,Nordic Offshore ,Sleipner ,58.7074,2.1827,Floating,Active,54,2026-01-01,2026-12-31,,,true,false,false
+A004, Activity 04,Coastal Operations ,Halten ,65.8098,6.5391,Fixed,Completed,61,2026-01-01,2026-12-31,,,false,true,true
+A005, Activity 05,Equinor ,Barents ,71.0985,21.2477,Mobile,Active,68,2026-01-01,2026-12-31,,,true,false,false
+A006, Activity 06,NorthSea Energy ,Troll ,60.3342,3.4086,Floating,Planned,75,2026-01-01,2026-12-31,,,false,false,true
+A007, Activity 07,Nordic Offshore ,Oseberg ,59.8845,2.3181,Fixed,Active,82,2026-01-01,2026-12-31,,,true,true,false
+A008, Activity 08,Coastal Operations ,Sleipner ,58.5948,1.9719,Mobile,Completed,89,2026-01-01,2026-12-31,,,false,false,true
+A009, Activity 09,Equinor ,Halten ,64.9366,7.3428,Floating,Active,96,2026-01-01,2026-12-31,,,true,false,false
+A010, Activity 10,NorthSea Energy ,Barents ,71.6023,21.2104,Fixed,Planned,103,2026-01-01,2026-12-31,,,false,true,true
+A011, Activity 11,Nordic Offshore ,Troll ,61.0976,3.717,Mobile,Active,110,2026-01-01,2026-12-31,,,true,false,false
+A012, Activity 12,Coastal Operations ,Oseberg ,60.2923,2.2488,Floating,Completed,117,2026-01-01,2026-12-31,,,false,false,true
+A013, Activity 13,Equinor ,Sleipner ,58.9944,1.6386,Fixed,Active,124,2026-01-01,2026-12-31,,,true,true,false
+A014, Activity 14,NorthSea Energy ,Halten ,64.7706,6.5547,Mobile,Planned,131,2026-01-01,2026-12-31,,,false,false,true
+A015, Activity 15,Nordic Offshore ,Barents ,71.6517,22.166,Floating,Active,138,2026-01-01,2026-12-31,,,true,false,false
+A016, Activity 16,Coastal Operations ,Troll ,61.0993,3.7676,Fixed,Completed,145,2026-01-01,2026-12-31,,,false,true,true
+A017, Activity 17,Equinor ,Oseberg ,60.5471,3.557,Mobile,Active,152,2026-01-01,2026-12-31,,,true,false,false
+A018, Activity 18,NorthSea Energy ,Sleipner ,58.2421,1.9833,Floating,Planned,159,2026-01-01,2026-12-31,,,false,false,true
+A019, Activity 19,Nordic Offshore ,Halten ,65.7282,7.3896,Fixed,Active,166,2026-01-01,2026-12-31,,,true,true,false
+A020, Activity 20,Coastal Operations ,Barents ,71.6702,22.1238,Mobile,Completed,43,2026-01-01,2026-12-31,,,false,false,true
+A021, Activity 21,Equinor ,Troll ,60.9659,2.6733,Floating,Active,50,2026-01-01,2026-12-31,,,true,false,false
+A022, Activity 22,NorthSea Energy ,Oseberg ,60.1463,2.463,Fixed,Planned,57,2026-01-01,2026-12-31,,,false,true,true
+A023, Activity 23,Nordic Offshore ,Sleipner ,57.8537,1.4725,Mobile,Active,64,2026-01-01,2026-12-31,,,true,false,false
+A024, Activity 24,Coastal Operations ,Halten ,64.7813,6.8448,Floating,Completed,71,2026-01-01,2026-12-31,,,false,false,true
+A025, Activity 25,Equinor ,Barents ,71.3764,21.7837,Fixed,Active,78,2026-01-01,2026-12-31,,,true,true,false
+A026, Activity 26,NorthSea Energy ,Troll ,60.5312,2.9352,Mobile,Planned,85,2026-01-01,2026-12-31,,,false,false,true
+A027, Activity 27,Nordic Offshore ,Oseberg ,60.1971,3.4986,Floating,Active,92,2026-01-01,2026-12-31,,,true,false,false
+A028, Activity 28,Coastal Operations ,Sleipner ,58.5924,2.0746,Fixed,Completed,99,2026-01-01,2026-12-31,,,false,true,true
+A029, Activity 29,Equinor ,Halten ,64.8725,7.5666,Mobile,Active,106,2026-01-01,2026-12-31,,,true,false,false
+A030, Activity 30,NorthSea Energy ,Barents ,70.7624,21.8071,Floating,Planned,113,2026-01-01,2026-12-31,,,false,false,true
+A031, Activity 31,Nordic Offshore ,Troll ,61.3364,3.624,Fixed,Active,120,2026-01-01,2026-12-31,,,true,true,false
+A032, Activity 32,Coastal Operations ,Oseberg ,60.574,3.0954,Mobile,Completed,127,2026-01-01,2026-12-31,,,false,false,true
+A033, Activity 33,Equinor ,Sleipner ,58.8457,2.3416,Floating,Active,134,2026-01-01,2026-12-31,,,true,false,false
+A034, Activity 34,NorthSea Energy ,Halten ,64.9478,6.4514,Fixed,Planned,141,2026-01-01,2026-12-31,,,false,true,true
+A035, Activity 35,Nordic Offshore ,Barents ,70.9601,21.6284,Mobile,Active,148,2026-01-01,2026-12-31,,,true,false,false
+A036, Activity 36,Coastal Operations ,Troll ,60.3243,4.1087,Floating,Completed,155,2026-01-01,2026-12-31,,,false,false,true
+A037, Activity 37,Equinor ,Oseberg ,60.9893,2.5035,Fixed,Active,162,2026-01-01,2026-12-31,,,true,true,false
+A038, Activity 38,NorthSea Energy ,Sleipner ,58.6021,1.733,Mobile,Planned,169,2026-01-01,2026-12-31,,,false,false,true
+A039, Activity 39,Nordic Offshore ,Halten ,65.8389,7.1342,Floating,Active,46,2026-01-01,2026-12-31,,,true,false,false
+A040, Activity 40,Coastal Operations ,Barents ,70.8943,21.5946,Fixed,Completed,53,2026-01-01,2026-12-31,,,false,true,true
+A041, Activity 41,Equinor ,Troll ,60.7798,3.0204,Mobile,Active,60,2026-01-01,2026-12-31,,,true,false,false
+A042, Activity 42,NorthSea Energy ,Oseberg ,60.61,3.4365,Floating,Planned,67,2026-01-01,2026-12-31,,,false,false,true
+A043, Activity 43,Nordic Offshore ,Sleipner ,58.2692,1.4509,Fixed,Active,74,2026-01-01,2026-12-31,,,true,true,false
+A044, Activity 44,Coastal Operations ,Halten ,65.9468,7.2152,Mobile,Completed,81,2026-01-01,2026-12-31,,,false,false,true
+A045, Activity 45,Equinor ,Barents ,70.6682,21.2754,Floating,Active,88,2026-01-01,2026-12-31,,,true,false,false
+A046, Activity 46,NorthSea Energy ,Troll ,60.1925,3.6039,Fixed,Planned,95,2026-01-01,2026-12-31,,,false,true,true
+A047, Activity 47,Nordic Offshore ,Oseberg ,60.8797,2.6755,Mobile,Active,102,2026-01-01,2026-12-31,,,true,false,false
+A048, Activity 48,Coastal Operations ,Sleipner ,57.8326,1.7106,Floating,Completed,109,2026-01-01,2026-12-31,,,false,false,true
