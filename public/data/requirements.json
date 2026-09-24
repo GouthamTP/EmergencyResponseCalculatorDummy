@@ -1,0 +1,16 @@
+{
+  "dfu2": {
+    "max_response_minutes": 120,
+    "description": "Illustrative pickup planning threshold"
+  },
+  "dfu7": {
+    "max_medevac_minutes": 180,
+    "description": "Illustrative medical evacuation planning threshold"
+  },
+  "dfu5": {
+    "max_response_minutes": 360,
+    "nofo_supplement_minutes": 60,
+    "description": "Illustrative vessel response planning values"
+  },
+  "disclaimer": "Synthetic data and illustrative formulas only. Validate every value and rule before production use."
+}

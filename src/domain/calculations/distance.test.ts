@@ -1,0 +1,1 @@
+import {describe,it,expect} from 'vitest';import {haversineNm,travelMinutes} from './distance';describe('distance',()=>{it('returns zero for same point',()=>expect(haversineNm({latitude:60,longitude:3},{latitude:60,longitude:3})).toBe(0));it('converts speed to time',()=>expect(travelMinutes(140,140)).toBe(60));});
