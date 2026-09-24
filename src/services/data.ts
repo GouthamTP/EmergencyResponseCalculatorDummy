@@ -10,6 +10,7 @@ import {
 
 const bool=(v:string)=>v==='true';
 const num=(v:string)=>Number(v);
+const dataPath=(fileName:string)=>`${import.meta.env.BASE_URL}data/${fileName}`;
 
 async function csv<T>(path:string,cast:(row:Record<string,string>)=>T):Promise<T[]>{
 	const text=await fetch(path).then(response=>{
@@ -38,7 +39,7 @@ export type LoadedData={
 
 export async function loadAll():Promise<LoadedData>{
 	const [activities,sar,errv,hospitals,heliports,requirements]=await Promise.all([
-		csv<Activity>('/data/activities.csv',row=>({
+		csv<Activity>(dataPath('activities.csv'),row=>({
 			activity_id:row.activity_id,
 			name:row.name,
 			operator:row.operator,
@@ -56,7 +57,7 @@ export async function loadAll():Promise<LoadedData>{
 			dfu5:bool(row.dfu5),
 			dfu7:bool(row.dfu7),
 		})),
-		csv<Sar>('/data/sar_resources.csv',row=>({
+		csv<Sar>(dataPath('sar_resources.csv'),row=>({
 			resource_id:row.resource_id,
 			name:row.name,
 			aircraft_type:row.aircraft_type,
@@ -70,7 +71,7 @@ export async function loadAll():Promise<LoadedData>{
 			pickup_min_per_person:num(row.pickup_min_per_person),
 			installation_time_min:num(row.installation_time_min),
 		})),
-		csv<Errv>('/data/errv_resources.csv',row=>({
+		csv<Errv>(dataPath('errv_resources.csv'),row=>({
 			resource_id:row.resource_id,
 			name:row.name,
 			latitude:num(row.latitude),
@@ -80,7 +81,7 @@ export async function loadAll():Promise<LoadedData>{
 			region:row.region,
 			available:bool(row.available),
 		})),
-		csv<Hospital>('/data/hospitals.csv',row=>({
+		csv<Hospital>(dataPath('hospitals.csv'),row=>({
 			hospital_id:row.hospital_id,
 			name:row.name,
 			latitude:num(row.latitude),
@@ -88,7 +89,7 @@ export async function loadAll():Promise<LoadedData>{
 			region:row.region,
 			helicopter_accessible:bool(row.helicopter_accessible),
 		})),
-		csv<Heliport>('/data/heliports.csv',row=>({
+		csv<Heliport>(dataPath('heliports.csv'),row=>({
 			heliport_id:row.heliport_id,
 			name:row.name,
 			latitude:num(row.latitude),
@@ -96,7 +97,7 @@ export async function loadAll():Promise<LoadedData>{
 			region:row.region,
 			active:bool(row.active),
 		})),
-		fetch('/data/requirements.json').then(response=>response.json() as Promise<Requirements>),
+		fetch(dataPath('requirements.json')).then(response=>response.json() as Promise<Requirements>),
 	]);
 
 	return {activities,sar,errv,hospitals,heliports,requirements};
