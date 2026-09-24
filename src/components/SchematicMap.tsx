@@ -29,6 +29,25 @@ const errvSymbol=marker('diamond',[66,202,166,1],13,[220,255,246,1]);
 const hospitalSymbol=marker('cross',[255,112,73,1],15,[255,225,213,1]);
 const heliportSymbol=marker('square',[115,145,236,1],11,[232,238,255,1]);
 
+const activityGraphic=(activity:Activity)=>new Graphic({
+  geometry:point(activity.longitude,activity.latitude),
+  symbol:activitySymbol,
+  attributes:{...activity,entityType:'activity'},
+  popupTemplate:{
+    title:'{name}',
+    content:[{
+      type:'fields',
+      fieldInfos:[
+        {fieldName:'operator',label:'Operator'},
+        {fieldName:'region',label:'Region'},
+        {fieldName:'installation_type',label:'Installation'},
+        {fieldName:'status',label:'Status'},
+        {fieldName:'people_on_board',label:'People on board',format:{digitSeparator:true,places:0}},
+      ],
+    }],
+  },
+});
+
 type Props={
   activities:Activity[];
   sar:Sar[];
@@ -46,10 +65,21 @@ export default function SchematicMap({activities,sar,errv,hospitals,heliports,se
   const activityLayerRef=useRef<GraphicsLayer|null>(null);
   const routeLayerRef=useRef<GraphicsLayer|null>(null);
   const onSelectRef=useRef(onSelect);
+  const activitiesRef=useRef(activities);
 
   useEffect(()=>{
     onSelectRef.current=onSelect;
   },[onSelect]);
+
+  useEffect(()=>{
+    activitiesRef.current=activities;
+    const activityLayer=activityLayerRef.current;
+    if(!activityLayer){
+      return;
+    }
+    activityLayer.removeAll();
+    activityLayer.addMany(activities.map(activityGraphic));
+  },[activities]);
 
   useEffect(()=>{
     if(!mapElementRef.current){
@@ -63,24 +93,7 @@ export default function SchematicMap({activities,sar,errv,hospitals,heliports,se
     const hospitalLayer=new GraphicsLayer({title:'Helicopter hospitals',listMode:'show'});
     const heliportLayer=new GraphicsLayer({title:'Heliports',listMode:'show'});
 
-    activityLayer.addMany(activities.map(activity=>new Graphic({
-      geometry:point(activity.longitude,activity.latitude),
-      symbol:activitySymbol,
-      attributes:{...activity,entityType:'activity'},
-      popupTemplate:{
-        title:'{name}',
-        content:[{
-          type:'fields',
-          fieldInfos:[
-            {fieldName:'operator',label:'Operator'},
-            {fieldName:'region',label:'Region'},
-            {fieldName:'installation_type',label:'Installation'},
-            {fieldName:'status',label:'Status'},
-            {fieldName:'people_on_board',label:'People on board',format:{digitSeparator:true,places:0}},
-          ],
-        }],
-      },
-    })));
+    activityLayer.addMany(activitiesRef.current.map(activityGraphic));
 
     sarLayer.addMany(sar.map(resource=>new Graphic({
       geometry:point(resource.longitude,resource.latitude),
@@ -160,7 +173,7 @@ export default function SchematicMap({activities,sar,errv,hospitals,heliports,se
       const response=await view.hitTest(event,{include:activityLayer});
       const graphic=response.results.find(result=>'graphic' in result)?.graphic;
       if(graphic?.attributes?.entityType==='activity'){
-        const activity=activities.find(item=>item.activity_id===graphic.attributes.activity_id);
+        const activity=activitiesRef.current.find(item=>item.activity_id===graphic.attributes.activity_id);
         if(activity){
           onSelectRef.current(activity);
         }
@@ -178,7 +191,7 @@ export default function SchematicMap({activities,sar,errv,hospitals,heliports,se
       activityLayerRef.current=null;
       routeLayerRef.current=null;
     };
-  },[activities,sar,errv,hospitals,heliports]);
+  },[sar,errv,hospitals,heliports]);
 
   useEffect(()=>{
     const view=viewRef.current;
